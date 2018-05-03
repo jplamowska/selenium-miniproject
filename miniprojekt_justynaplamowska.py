@@ -33,8 +33,7 @@ class EurobankRegistration(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
 
-
-    def test_invalid_email(self):
+    def test_invalid_photo(self):
         driver = self.driver
         driver.get("https://eurobank.pl")
         sleep(5)
